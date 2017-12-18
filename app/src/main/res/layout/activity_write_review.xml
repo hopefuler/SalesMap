@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context="com.example.lkm.ms_termproject_001.PointActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/main_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@drawable/smap_top"></ImageView>
+
+        <ImageButton
+            android:id="@+id/main_top_menu_left_btn"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:layout_margin="12dp"
+            android:background="@drawable/main_top_menu_left_btn"
+            android:onClick="topMenuClick"></ImageButton>
+
+    </FrameLayout>
+
+
+
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/reviewWirteFoodTruckPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_test_01" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+                <TextView
+                    android:id="@+id/reviewWriteFoodTruckName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="재형이네 Stake"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="center">
+                <RatingBar
+                    android:id="@+id/reviewWriteRatingBar"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:max="5"
+                    android:rating="3"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/reviewWirteReview"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="30자 이내의 간단한 후기를 남겨주세요."/>
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/button"
+                android:id="@+id/reviewWriteImageBtn"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lkm.ms_termproject_001.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/smap_logo"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:text="당신의 소비를 합리적으로 바꿔드립니다."
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="9dp"
+            android:textSize="38dp"
+            android:textColor="#000000"
+            android:text="Sales Map"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center"/>
+
+        <com.kakao.usermgmt.LoginButton
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

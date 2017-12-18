@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90913774242",
+    "firebase_url": "https://foodtruckgo-87bfa.firebaseio.com",
+    "project_id": "foodtruckgo-87bfa",
+    "storage_bucket": "foodtruckgo-87bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90913774242:android:1e84c9e88a8ee28b",
+        "android_client_info": {
+          "package_name": "com.example.lkm.ms_termproject_001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90913774242-c4n943cfrueect748lf6qar83d2aqipf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lkm.ms_termproject_001",
+            "certificate_hash": "ed10b846aa661be1b96906166254160ff030d18d"
+          }
+        },
+        {
+          "client_id": "90913774242-ov8h9pk4sk97i4tf8gtps8eq7l6cqm73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw6MQ2s1Rxhq4xbF5ERILC8sizypXeHA8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90913774242-ov8h9pk4sk97i4tf8gtps8eq7l6cqm73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
